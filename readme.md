@@ -1,18 +1,18 @@
-# altair/websock-monitor
+# websock-monitor
 WebSocketサーバーに配置されるWebSocket通信用クライアントモジュール。  
 WebSocketサーバーモジュールはHTTPリクエストを処理しないため、代わりにロードバランサーに対するヘルスチェックエンドポイントを実装しlocalhost上のWebSocketサーバーと通信が確立していればステータスコード200を返す。
 
 - npm socket.ioライブラリ
 
 ## How to use
-まず最初に下記のコマンドを実行しaltairレポジトリをクローンします。  
-※下記手順を実施する前に[altair/websock](../websock)のリソースを使ってWebSocketサーバーが起動していることを確認してください。
+まず最初に下記のコマンドを実行しwebsock-monitorレポジトリをクローンします。  
+※下記手順を実施する前に[altair/websock](https://github.com/altair-development/websock)のリソースを使ってWebSocketサーバーが起動していることを確認してください。
 ```
-git clone https://github.com/joey23008/altair.git
+git clone https://github.com/altair-development/websock-monitor.git
 ```
 次にwebsock-monitorフォルダに移動します。
 ```
-cd altair/websock-monitor
+cd websock-monitor
 ```
 モジュールの実行に必要なnpmライブラリをインストールします。
 ```
